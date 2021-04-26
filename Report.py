@@ -1,6 +1,11 @@
 name = input("Enter first and last name ")
 userName = input("What is your username ")
-level = input("Enter level ")
+while True:
+    level = int(input("Enter level "))
+    if level > 500:
+        print("Enter a valid level")
+    else:
+        break
 favoriteRoles = []
 while True:
     roles = input("List favorite roles ")
