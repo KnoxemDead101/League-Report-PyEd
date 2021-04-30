@@ -38,4 +38,4 @@ def player_report(player_name, user_name, player_level, player_role, player_favo
 
 
 player_report(name, userName, level, favoriteRoles, favoriteChampions, rank, this_mans_champion_masteries)
-print("lolz")
+print("lol")
