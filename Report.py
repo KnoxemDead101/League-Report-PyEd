@@ -24,7 +24,8 @@ while True:
         favoriteChampions.append(champions)
 
 
-def player_report(player_name, user_name, player_level, player_role, player_favorite_champions, player_rank, this_mans_champion_masteries):
+def player_report(player_name, user_name, player_level, player_role, player_favorite_champions, player_rank,
+                  this_mans_champion_masteries):
     print("=== LEAGUE PLAYER REPORT ===")
     print(f"Full name is {player_name}")
     print(f"Username is {user_name}")
@@ -37,3 +38,4 @@ def player_report(player_name, user_name, player_level, player_role, player_favo
 
 
 player_report(name, userName, level, favoriteRoles, favoriteChampions, rank, this_mans_champion_masteries)
+print("lolz")
