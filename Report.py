@@ -28,7 +28,7 @@ while True:
 
 
 def display_player_info(player_name, user_name, player_level, player_role, player_favorite_champions,
-                        player_rank_last_season, champion_mastery, match_histroy):
+                        player_rank_last_season, champion_mastery, match_history):
     print("=== LEAGUE PLAYER REPORT ===")
     print(f"Full name is {player_name}")
     print(f"Username is {user_name}")
@@ -37,7 +37,7 @@ def display_player_info(player_name, user_name, player_level, player_role, playe
     print(player_favorite_champions)
     print(player_rank_last_season)
     print(champion_mastery)
-    print(match_histroy)
+    print(match_history)
 
 
 display_player_info(name, userName, level, favoriteRoles, favoriteChampions, rank_last_season,
