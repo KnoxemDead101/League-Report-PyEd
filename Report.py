@@ -7,7 +7,7 @@ userName = input("What is your username in game")
 summoner = kassadin.get_summoner(name=userName)
 level = summoner.level
 rank_last_season = summoner.rank_last_season
-champion_masteries = summoner.champion_masteries
+champion_mastery = summoner.champion_masteries
 match_history = summoner.match_history
 # This is a command and i have no idea what this can lead to now
 # current_match = summoner.current_match
@@ -41,4 +41,4 @@ def display_player_info(player_name, user_name, player_level, player_role, playe
 
 
 display_player_info(name, userName, level, favoriteRoles, favoriteChampions, rank_last_season,
-                    champion_masteries, match_history)
+                    champion_mastery, match_history)
